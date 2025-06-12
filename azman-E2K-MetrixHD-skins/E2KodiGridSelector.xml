@@ -90,14 +90,18 @@
     <widget name="marker_4x5" position="1270,620" size="210,140" alphatest="blend" />
     <widget name="logo_4x5" position="1290,640" size="167,100" alphatest="blend" />
 
-    <ePixmap pixmap="MetrixHD/buttons/red.png" position="20,810" size="30,40" alphatest="blend" />
-    <widget name="key_red"    position="60,815" zPosition="2" size="150,30" foregroundColor="red" valign="center" halign="left" font="Regular;24" transparent="1" />
-    <ePixmap pixmap="MetrixHD/buttons/green.png" position="290,810" size="30,40" alphatest="blend" />
-    <widget name="key_green"  position="330,815" zPosition="2" size="350,30" foregroundColor="green" valign="center" halign="left" font="Regular;24" transparent="1" />
-    <ePixmap pixmap="MetrixHD/buttons/yellow.png" position="580,810" size="30,40" alphatest="blend" />
-    <widget name="key_yellow"  position="620,815" zPosition="2" size="250,30" foregroundColor="yellow" valign="center" halign="left" font="Regular;24" transparent="1" />
-    <ePixmap pixmap="MetrixHD/buttons/blue.png" position="870,810" size="30,40" alphatest="blend" />
-    <widget name="key_blue"  position="910,815" zPosition="2" size="200,30" foregroundColor="blue" valign="center" halign="left" font="Regular;24" transparent="1" />
-    <widget name="key_ok"  position="1200,815" zPosition="2" size="350,30" foregroundColor="gray" valign="center" halign="left" font="Regular;24" transparent="1" />
-    
+	<ePixmap pixmap="MetrixHD/buttons/red.png" position="10,820" size="40,56" alphatest="blend" />
+    <widget name="key_red"  position="60,830" zPosition="2" size="150,30" foregroundColor="red" valign="center" halign="left" font="Regular;24" transparent="1" />
+    <ePixmap pixmap="MetrixHD/buttons/green.png" position="290,820" size="40,56" alphatest="blend" />
+    <widget name="key_green"  position="340,830" zPosition="2" size="350,30" foregroundColor="green" valign="center" halign="left" font="Regular;24" transparent="1" />
+    <ePixmap pixmap="MetrixHD/buttons/yellow.png" position="580,820" size="40,56" alphatest="blend" />
+    <widget name="key_yellow"  position="630,830" zPosition="2" size="250,30" foregroundColor="yellow" valign="center" halign="left" font="Regular;24" transparent="1" />
+    <ePixmap pixmap="MetrixHD/buttons/blue.png" position="870,820" size="40,56" alphatest="blend" />
+    <widget name="key_blue"  position="920,830" zPosition="2" size="200,30" foregroundColor="blue" valign="center" halign="left" font="Regular;24" transparent="1" />
+    <widget name="key_ok"  position="1200,30" zPosition="2" size="350,30" foregroundColor="gray" valign="center" halign="left" font="Regular;24" transparent="1" />
+	
+	<ePixmap pixmap="MetrixHD/buttons/ok.png" position="1090,810" size="120,55" alphatest="blend" />
+	<ePixmap pixmap="MetrixHD/buttons/menu.png" position="1230,810" size="120,55" alphatest="blend" />
+	<ePixmap pixmap="MetrixHD/buttons/key_exit.png" position="1370,810" size="120,55" alphatest="blend" />
+
 </screen>

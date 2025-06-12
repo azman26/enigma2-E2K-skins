@@ -1,4 +1,4 @@
-<screen position="center,center" size="1200,700" flags="wfNoBorder" >
+<screen position="center,center" size="1200,800" flags="wfNoBorder" >
 	<widget name="Title" position="5,5" size="1190,30" font="Regular;24" halign="left" noWrap="1" transparent="1" />
     <widget source="list" render="Listbox" position="5,40" size="1190,500" scrollbarMode="showOnDemand" transparent="1" >
 		<convert type="TemplatedMultiContent">
@@ -12,9 +12,12 @@
         </convert>
     </widget>
     <eLabel position="0,550" size="1200,2"  backgroundColor="#aaaaaa" />
-    <widget name="KodiNotificationsAndStatus" position="5,560" size="1190,100" font="Regular;18" halign="left" noWrap="0" transparent="1" backgroundColor="#aa000000"/>
-    <widget name="key_red"    position="20,665" zPosition="2" size="150,30" foregroundColor="red" valign="center" halign="left" font="Regular;22" transparent="1" />
-    <widget name="key_green"  position="200,665" zPosition="2" size="250,30" foregroundColor="green" valign="center" halign="left" font="Regular;22" transparent="1" />
-    <widget name="key_yellow"  position="500,665" zPosition="2" size="350,30" foregroundColor="yellow" valign="center" halign="left" font="Regular;22" transparent="1" />
-    <widget name="key_ok"  position="800,665" zPosition="2" size="400,30" foregroundColor="gray" valign="center" halign="left" font="Regular;22" transparent="1" />
+    <widget name="KodiNotificationsAndStatus" position="5,560" size="1190,200" font="Regular;20" halign="left" noWrap="0" transparent="1" backgroundColor="#aa000000"/>
+    <ePixmap pixmap="MetrixHD/buttons/red.png" position="05,740" size="40,56" alphatest="blend" />
+	<widget name="key_red"    position="50,750" zPosition="2" size="150,30" foregroundColor="red" valign="center" halign="left" font="Regular;22" transparent="1" />
+	<ePixmap pixmap="MetrixHD/buttons/green.png" position="205,740" size="40,56" alphatest="blend" />
+    <widget name="key_green"  position="250,750" zPosition="2" size="250,30" foregroundColor="green" valign="center" halign="left" font="Regular;22" transparent="1" />
+    <ePixmap pixmap="MetrixHD/buttons/yellow.png" position="505,740" size="40,56" alphatest="blend" />
+    <widget name="key_yellow"  position="550,750" zPosition="2" size="350,30" foregroundColor="yellow" valign="center" halign="left" font="Regular;22" transparent="1" />
+    <widget name="key_ok"  position="850,750" zPosition="2" size="400,30" foregroundColor="gray" valign="center" halign="left" font="Regular;22" transparent="1" />
 </screen>
