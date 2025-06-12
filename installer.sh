@@ -31,8 +31,7 @@ fi
 
 echo "Kopiowanie katalogów do $DEST_DIR..."
 cp -r enigma2-E2K-skins-main/azman-E2K-MetrixHD-skins "$DEST_DIR/"
-cp -r enigma2-E2K-skins-main/jk36-E2K-skins "$DEST_DIR/"
-cp -r enigma2-E2K-skins-main/jk36-V2-PIG-E2K-BHskins "$DEST_DIR/"
+cp -r enigma2-E2K-skins-main/jk36-E2K-skins-all "$DEST_DIR/"
 
 cd /
 rm -rf "$TMP_DIR"
