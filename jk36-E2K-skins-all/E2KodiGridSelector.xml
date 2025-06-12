@@ -1,0 +1,146 @@
+<screen name="E2KodiGridSelector" position="0,0" size="1920,1080" title="Wybór dodatku E2Kodi" flags="wfNoBorder" backgroundColor="transparent">
+ <ePixmap position="50,785" zPosition="-6" size="1920,350" pixmap="/etc/E2Kodi/userSkins/ElementySkin/przez1800x196.png"/>
+  <ePixmap position="50,980" zPosition="-6" size="1920,98" pixmap="/etc/E2Kodi/userSkins/ElementySkin/przez1800x96.png"/>
+   <widget source="global.CurrentTime" render="Label" position="1725,800" size="120,35" font="Roboto_HD; 34" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="1320,800" size="500,40" font="Roboto_HD; 34" foregroundColor="lemon" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%A %d.%m.%Y</convert>
+    </widget>
+    <widget source="Title" render="Label" position="340,805" size="1085,40" font="Roboto_HD; 34" halign="left" foregroundColor="white" backgroundColor="dark_grey" transparent="1"/>
+  <!-- 1 -->   
+	<widget name="marker_0x0" position="56,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x0" position="72,880" size="120,80" alphatest="blend" />
+
+    <widget name="marker_0x1" position="211,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x1" position="227,880" size="120,80" alphatest="blend" />
+
+    <widget name="marker_0x2" position="366,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x2" position="382,880" size="120,80" alphatest="blend" />
+
+    <widget name="marker_0x3" position="521,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x3" position="537,880" size="120,80" alphatest="blend" />
+   
+<!-- cdn -->
+    <widget name="marker_0x4" position="676,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x4" position="692,880" size="120,80" alphatest="blend" />
+
+    <widget name="marker_0x5" position="831,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x5" position="852,880" size="120,80" alphatest="blend" />
+
+    <widget name="marker_0x6" position="986,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x6" position="1007,880" size="120,80" alphatest="blend" />
+
+    <widget name="marker_0x7" position="1141,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x7" position="1162,880" size="120,80" alphatest="blend" />
+
+    <widget name="marker_0x8" position="1296,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x8" position="1317,880" size="120,80" alphatest="blend" />
+		
+    <widget name="marker_0x9" position="1451,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x9" position="1472,880" size="120,80" alphatest="blend" />
+	
+    <widget name="marker_0x10" position="1606,864" size="154,113" alphatest="blend" />
+    <widget name="logo_0x10" position="1627,880" size="120,80" alphatest="blend" />
+	
+	<!-- 1 reszta  -->   
+	<widget name="marker_2x0" position="56,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x0" position="72,680" size="120,80" alphatest="blend" />
+	
+	<widget name="marker_2x1" position="211,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x1" position="227,680" size="120,80" alphatest="blend" />
+
+    <widget name="marker_2x2" position="366,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x2" position="382,680" size="120,80" alphatest="blend" />
+
+    <widget name="marker_2x3" position="521,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x3" position="537,680" size="120,80" alphatest="blend" />
+	
+	<widget name="marker_2x4" position="676,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x4" position="692,680" size="120,80" alphatest="blend" />
+			
+	<widget name="marker_2x5" position="831,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x5" position="852,680" size="120,80" alphatest="blend" />
+
+    <widget name="marker_2x6" position="986,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x6" position="1007,680" size="120,80" alphatest="blend" />
+
+    <widget name="marker_2x7" position="1141,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x7" position="1162,680" size="120,80" alphatest="blend" />
+
+    <widget name="marker_2x8" position="1296,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x8" position="1317,680" size="120,80" alphatest="blend" />
+		
+    <widget name="marker_2x9" position="1451,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x9" position="1472,680" size="120,80" alphatest="blend" />
+	
+    <widget name="marker_2x10" position="1606,664" size="154,113" alphatest="blend" />
+    <widget name="logo_2x10" position="1627,680" size="120,80" alphatest="blend" />
+	
+	<!-- 2 reszta  -->   
+	<widget name="marker_1x0" position="56,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x0" position="72,580" size="120,80" alphatest="blend" />
+	
+	<widget name="marker_1x1" position="211,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x1" position="227,580" size="120,80" alphatest="blend" />
+
+    <widget name="marker_1x2" position="366,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x2" position="382,580" size="120,80" alphatest="blend" />
+
+    <widget name="marker_1x3" position="521,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x3" position="537,580" size="120,80" alphatest="blend" />
+	
+	<widget name="marker_1x4" position="676,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x4" position="692,580" size="120,80" alphatest="blend" />
+			
+	<widget name="marker_1x5" position="831,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x5" position="852,580" size="120,80" alphatest="blend" />
+
+    <widget name="marker_1x6" position="986,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x6" position="1007,580" size="120,80" alphatest="blend" />
+
+    <widget name="marker_1x7" position="1141,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x7" position="1162,580" size="120,80" alphatest="blend" />
+
+    <widget name="marker_1x8" position="1296,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x8" position="1317,580" size="120,80" alphatest="blend" />
+		
+    <widget name="marker_1x9" position="1451,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x9" position="1472,580" size="120,80" alphatest="blend" />
+	
+    <widget name="marker_1x10" position="1606,564" size="154,113" alphatest="blend" />
+    <widget name="logo_1x10" position="1627,580" size="120,80" alphatest="blend" />
+	
+	<ePixmap alphatest="blend" pixmap="/etc/E2Kodi/userSkins/ElementySkin/logo.png" position="200,805" size="100,40" />
+	
+	
+	
+	<eLabel backgroundColor="#333333"  position="70,875" size="1680,90" zPosition="-4" />
+	
+	<ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/kursory2.png" position="70,795" size="150,150" zPosition="10" alphatest="blend"/>
+
+<eLabel font="Roboto_HD; 34" halign="left" name="new eLabel9" position="150,810" size="60,35" text="-" transparent="1" zPosition="1" valign="center" backgroundColor="black" foregroundColor="white" />	
+
+
+
+	
+<!-- przyciski -->     
+	<ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_red.png" position="61,1035" size="35,27" alphatest="blend"/>
+    <ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_green.png" position="260,1035" size="35,27" alphatest="blend"/>
+    <ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_yellow.png" position="1240,1035" size="35,27" alphatest="blend"/>
+    <ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_blue.png" position="1650,1035" size="35,27" alphatest="blend"/>
+    <widget name="key_red" position="111,1029" size="200,35" zPosition="1" font="Roboto_HD; 34" halign="left" backgroundColor="dark_grey" transparent="1"/>
+    <widget name="key_green" position="300,995" size="260,34" zPosition="1" font="Roboto_HD; 34" halign="left" backgroundColor="dark_grey" transparent="1"/>
+    <widget name="key_yellow" position="1310,1029" size="350,35" zPosition="1" font="Roboto_HD; 34" halign="left" backgroundColor="dark_grey" transparent="1"/>
+    <widget name="key_blue" position="1710,995" size="200,34" zPosition="1" font="Roboto_HD; 34" halign="left" backgroundColor="dark_grey" transparent="1"/>
+	
+	<ePixmap alphatest="blend" pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_ok.png" position="715,995" size="90,70" />
+		<ePixmap alphatest="blend" pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_menu.png" position="715,1025" size="90,70" />
+		
+	<eLabel font="Roboto_HD; 24" halign="left" name="new eLabel7" position="785,990" size="400,35" text="- Ustawienia wybranej Wtyczki" transparent="1" zPosition="1" valign="center" backgroundColor="black" foregroundColor="white" />	
+	<eLabel font="Roboto_HD; 24" halign="left" name="new eLabel8" position="785,1025" size="400,35" text="- Konfiguracja ustawień E2K " transparent="1" zPosition="1" valign="center" backgroundColor="black" foregroundColor="white" />	
+	<eLabel font="Roboto_HD; 20" halign="center" name="new eLabel5" position="310,1040" size="230,30" text="Podgląd - wł / wył" transparent="1" zPosition="1" valign="center" backgroundColor="#008000" foregroundColor="white" />
+	<eLabel font="Roboto_HD; 20" halign="center" name="new eLabel6" position="1700,1040" size="150,30" text="Ukrywanie" transparent="1" zPosition="1" valign="center" backgroundColor="#0000FF" foregroundColor="white" />
+		
+     
+    </screen>

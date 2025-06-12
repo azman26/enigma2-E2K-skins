@@ -1,0 +1,24 @@
+<screen name="E2KodiEventsConfig" position="0,0" size="1920,1080" title="E2Kodi Events Config" flags="wfNoBorder" backgroundColor="transparent">
+<ePixmap position="0,685" zPosition="-7" size="770,540" pixmap="/etc/E2Kodi/userSkins/ElementySkin/przez751x340.png" />
+<ePixmap position="3,3" zPosition="-6" size="680,120" pixmap="/etc/E2Kodi/userSkins/ElementySkin/przez675x69.png"/>
+<ePixmap alphatest="blend" pixmap="/etc/E2Kodi/userSkins/ElementySkin/logo.png" position="555,15" size="100,40" />
+<ePixmap position="0,617" zPosition="-6" size="770,70" pixmap="/etc/E2Kodi/userSkins/ElementySkin/przez751x68.png"/>
+<ePixmap position="0,1010" zPosition="-6" size="770,70" pixmap="/etc/E2Kodi/userSkins/ElementySkin/przez751x68.png"/>
+       <widget source="global.CurrentTime" render="Label" position="40,15" size="80,30" font="Roboto_HD; 27" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" render="Label" position="185,15" size="470,30" font="Roboto_HD; 27" foregroundColor="lemon" backgroundColor="black" transparent="1">
+      <convert type="ClockToText">Format:%A %d.%m.%Y</convert>
+    </widget>
+    <widget source="Title" render="Label" position="50,635" size="480,35" font="Roboto_HD; 27" halign="right" backgroundColor="dark_grey" foregroundColor="lemon" zPosition="2" transparent="1"/>
+    <widget name="config" position="5,685" size="740,340" itemHeight="45" font="Roboto_HD; 28" scrollbarMode="showOnDemand" selectionPixmap="/etc/E2Kodi/userSkins/ElementySkin/sel_860_45.png" enableWrapAround="1" scrollbarWidth="10" scrollbarSliderBorderWidth="1" scrollbarSliderForegroundColor="#e6e6e6" scrollbarSliderBorderColor="#3b3e3f" backgroundColor="black" transparent="1"/>
+    <ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_red.png" position="47,1040" size="35,27" alphatest="blend"/>
+    <ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_green.png" position="310,1040" size="35,27" alphatest="blend"/>
+    <!--ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_yellow.png" position="573,1040" size="35,27" alphatest="blend"/>
+    <ePixmap pixmap="/etc/E2Kodi/userSkins/ElementySkin/key_blue.png" position="836,1040" size="35,27" alphatest="blend"/-->
+    <widget name="key_red" position="87,1039" size="180,27" zPosition="1" font="Roboto_HD; 24" halign="left" foregroundColor="white" backgroundColor="dark_grey" transparent="1"/>
+    <widget name="key_green" position="350,1039" size="200,27" zPosition="1" font="Roboto_HD; 24" halign="left" foregroundColor="white" backgroundColor="dark_grey" transparent="1"/>
+    <!--widget name="key_yellow" position="613,1039" size="200,27" zPosition="1" font="Roboto_HD; 24" halign="left" foregroundColor="white" backgroundColor="dark_grey" transparent="1"/>
+    <widget name="key_blue" position="876,1039" size="200,27" zPosition="1" font="Roboto_HD; 24" halign="left" foregroundColor="white" backgroundColor="dark_grey" transparent="1"/-->
+ 
+ </screen>
